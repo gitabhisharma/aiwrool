@@ -1,4 +1,4 @@
-package app.backend.corejava;
+package app.backend.userlogin;
 
 public class user {
     private String username;
@@ -13,8 +13,16 @@ public class user {
     }
 
     // Getters and Setters for the user attributes
-    public String getUsername(String username, String password, String email){
+    public String getUsername(String username){
         return username;
+    }
+
+    public String getPassword(String password){
+        return password;
+    }
+    
+    public String getEmail(String email){
+        return email;
     }
     
 }
