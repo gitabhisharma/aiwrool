@@ -1,4 +1,4 @@
--- Create a new table 
+-- Create a table to store user infromation in database
 CREATE TABLE user (
     user_id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     email VARCHAR2(254 CHAR) NOT NULL,
