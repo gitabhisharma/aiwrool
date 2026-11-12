@@ -74,16 +74,16 @@ public class user {
     }
 
     // Getters and Setters for the user attributes
-    public String getUsername(String username){
-        return username;
-    }
+    // public String getUsername(String username){
+    //     return username;
+    // }
 
-    public String getPassword(String password){
-        return password;
-    }
+    // public String getPassword(String password){
+    //     return password;
+    // }
     
-    public String getEmail(String email){
-        return email;
-    }
+    // public String getEmail(String email){
+    //     return email;
+    // }
     
 }
