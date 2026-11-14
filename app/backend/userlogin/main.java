@@ -8,7 +8,7 @@ public class main {
 
         Scanner sc = new Scanner(System.in);
 
-        UserService service = new UserService();
+        userservice service = new userservice();
 
         while (true) {
 
